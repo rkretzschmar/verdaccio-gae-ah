@@ -1,6 +1,6 @@
 # verdaccio-gae-ah
 
-A [verdaccio](https://verdaccio.org) middleware plugin that handles Google App Engine `/_ah/*` requests like `/_ah/warmup`.
+A [Verdaccio](https://verdaccio.org) middleware plugin that handles Google App Engine `/_ah/*` requests like `/_ah/warmup`.
 
 ## Installation
 

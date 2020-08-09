@@ -1,7 +1,7 @@
 {
   "name": "verdaccio-gae-ah",
   "version": "0.0.2",
-  "description": "A verdaccio middleware plugin that handles Google App Engine /_ah/* requests like /_ah/warmup",
+  "description": "A Verdaccio middleware plugin that handles Google App Engine /_ah/* requests like /_ah/warmup",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
