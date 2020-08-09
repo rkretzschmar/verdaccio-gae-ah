@@ -1,8 +1,10 @@
 # verdaccio-gae-ah
 
-A [verdaccio](https://verdaccio.org) middleware plugin that handles Google App Engine `/_ah/*` requests like `/_ah/warmup`
+A [verdaccio](https://verdaccio.org) middleware plugin that handles Google App Engine `/_ah/*` requests like `/_ah/warmup`.
 
 ## Installation
+
+First, see [how to install Verdaccio](https://verdaccio.org/docs/en/installation).
 
 ```
 $ npm i verdaccio-gae-ah
@@ -10,7 +12,7 @@ $ npm i verdaccio-gae-ah
 
 ## Configuration
 
-Add the following to the `middlewares` section of the verdaccio `config.yaml` file:
+Add the following to the `middlewares` section of the Verdaccio `config.yaml` file:
 
 ```yaml
 middlewares:
@@ -18,7 +20,7 @@ middlewares:
     enabled: true
 ```
 
-If `enabled` is `true` verdaccio server is answering requests like `/_ah/start` or `/_ah/warmup` with HTTP 200 and the following JSON response:
+If `enabled` is `true` Verdaccio server is answering requests like `/_ah/start` or `/_ah/warmup` with HTTP 200 and the following JSON response:
 
 ```json
 {
