@@ -4,7 +4,9 @@ A [verdaccio](https://verdaccio.org) middleware plugin that handles Google App E
 
 ## Installation
 
-First, see [how to install Verdaccio](https://verdaccio.org/docs/en/installation).
+First, install Verdaccio as a project, see [How to install Verdaccio](https://verdaccio.org/docs/en/installation).
+
+Then, within the verdaccio project folder:
 
 ```
 $ npm i verdaccio-gae-ah
